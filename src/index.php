@@ -118,8 +118,8 @@ $value = strife_get_value_from_request();
         height=480
     >
     <div>
-        <a href="<?= $value ?>.png" download class="btn">Download PNG</a>
-        <a href="<?= $value ?>.svg" download class="btn">Download SVG</a>
+        <a href="<?= $value ?>.png" download="strife.png" class="btn">Download PNG</a>
+        <a href="<?= $value ?>.svg" download="strife.svg" class="btn">Download SVG</a>
     </div>
     <div class="scale">
         <label for="temp">Generate a new image:</label><br />
