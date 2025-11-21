@@ -102,14 +102,14 @@ $value = strife_get_value_from_request();
         </datalist>
 
         <div class="scale-labels">
-            <span><a href="/colourful">Colourful</a></span>
-            <span><a href="/controversial">Controversial</a></span>
-            <span><a href="/underpressure">Under Pressure</a></span>
-            <span><a href="/troubled">Troubled</a></span>
-            <span class="wider"><a href="/beleaguered">Beleaguered</a></span>
-            <span class="wider"><a href="/embattled">Embattled</a></span>
-            <span class="wider"><a href="/former">Former</a></span>
-            <span class="wider"><a href="/disgraced">Disgraced</a></span>
+            <span style="color: #4caf50"><a href="/colourful">Colourful</a></span>
+            <span style="color: #81c784"><a href="/controversial">Controversial</a></span>
+            <span style="color: #4fc3f7"><a href="/underpressure">Under Pressure</a></span>
+            <span style="color: #2196f3"><a href="/troubled">Troubled</a></span>
+            <span class="wider" style="color: #d6c100"><a href="/beleaguered">Beleaguered</a></span>
+            <span class="wider" style="color: #ffa31a"><a href="/embattled">Embattled</a></span>
+            <span class="wider" style="color: #f44336"><a href="/former">Former</a></span>
+            <span class="wider" style="color: #b71c1c"><a href="/disgraced">Disgraced</a></span>
         </div>
     </div>
 
