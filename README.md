@@ -4,7 +4,7 @@
 A tiny web app that generates a shareable "political strife" meter image based on a slider position from 0 to 100. A hosted instance of this can be found at https://politicalstrifescale.com/.
 
 ## How it works
-- `index.php` renders a HTML file that contains the image, slider control and labels.
+- `index.php` renders a HTML file that contains the image, download buttons, slider control and labels.
 - Requests to `/{value}` are routed to a PHP script (e.g. `svg.php` or `png.php`) which:
     - Parses the numeric or descriptive value.
     - Produces the political strife meter as an SVG with the correct needle position.

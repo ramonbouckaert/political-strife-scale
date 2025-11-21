@@ -30,6 +30,36 @@ $value = strife_get_value_from_request();
             max-width: 100%;
             height: auto;
         }
+        .btn {
+            appearance: none;
+            -webkit-appearance: none;
+
+            display: inline-block;
+            padding: 0.35em 0.9em;
+            border: 1px solid #d0d0d0;
+            border-radius: 4px;
+
+            background: #f3f3f3;
+            color: #000;
+            font: 400 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            text-decoration: none;
+            text-align: center;
+
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #e9e9e9;
+            border-color: #c0c0c0;
+        }
+        .btn:active {
+            background: #dcdcdc;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.18);
+        }
+        .btn:focus-visible {
+            outline: 2px solid #2684ff;
+            outline-offset: 2px;
+        }
         input[type="range"] {
             width: 200px;
             margin: 0;
@@ -82,10 +112,14 @@ $value = strife_get_value_from_request();
 <body>
     <img
         alt="Political Strife Scale"
-	src="<?= $value ?>.png"
+	    src="<?= $value ?>.png"
         width=800
         height=480
     >
+    <div>
+        <a href="<?= $value ?>.png" download class="btn">Download PNG</a>
+        <a href="<?= $value ?>.svg" download class="btn">Download SVG</a>
+    </div>
     <div class="scale">
         <label for="temp">Generate a new image:</label><br />
         <input type="range" id="new_position" name="new_position" list="markers" step="1" value="<?= $value ?>" />
