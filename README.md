@@ -1,5 +1,5 @@
 # Political Strife Scale
-~[An example Political Strife Scale](example.png)
+~[An example Political Strife Scale](example.png?raw=true)
 
 A tiny web app that generates a shareable "political strife" meter image based on a slider position from 0 to 100.
 
