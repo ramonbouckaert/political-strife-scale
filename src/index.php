@@ -51,7 +51,7 @@ $value = strife_get_value_from_request();
             align-content: end;
         }
         .wider {
-            flex-grow: 1.5 !important;
+            flex-grow: 2 !important;
         }
         .scale-labels span a {
             text-decoration: none;
@@ -92,12 +92,12 @@ $value = strife_get_value_from_request();
 
         <datalist id="markers">
             <option value="0">Colourful</option>
-            <option value="12">Controversial</option>
-            <option value="24">Under Pressure</option>
-            <option value="35">Troubled</option>
-            <option value="47">Beleaguered</option>
-            <option value="65">Embattled</option>
-            <option value="82">Former</option>
+            <option value="9">Controversial</option>
+            <option value="18">Under Pressure</option>
+            <option value="27">Troubled</option>
+            <option value="44">Beleaguered</option>
+            <option value="61">Embattled</option>
+            <option value="80">Former</option>
             <option value="100">Disgraced</option>
         </datalist>
 
