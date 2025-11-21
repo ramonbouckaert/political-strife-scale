@@ -50,7 +50,7 @@ function strife_get_value_from_request(): float
         $value = 100;
     }
 
-    return $value;
+    return round($value);
 }
 
 function strife_render_svg(?float $value = null): string
