@@ -6,7 +6,7 @@ A tiny web app that generates a shareable "political strife" meter image based o
 ## How it works
 - `index.php` renders a HTML file that contains the image, slider control and labels.
 - Requests to `/{value}` are routed to a PHP script (e.g. `svg.php` or `png.php`) which:
-    - Parses the numeric value.
+    - Parses the numeric or descriptive value.
     - Produces the political strife meter as an SVG with the correct needle position.
     - If necessary, renders that SVG into a PNG image using the `resvg` CLI tool.
 - Common logic is kept in `common.php`
