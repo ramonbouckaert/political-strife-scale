@@ -113,7 +113,7 @@ $value = strife_get_value_from_request();
         });
 </script>
 <footer class="footer">
-  &copy; 2025 Ramon Bouckaert. All rights reserved.
+  &copy; 2025 Ramon Bouckaert. All rights reserved. Source code available <a href="https://github.com/ramonbouckaert/political-strife-scale">here</a>.
 </footer>
 </body>
 </html>

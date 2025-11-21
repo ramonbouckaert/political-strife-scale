@@ -1,7 +1,7 @@
 # Political Strife Scale
 ![An example Political Strife Scale](example.png?raw=true)
 
-A tiny web app that generates a shareable "political strife" meter image based on a slider position from 0 to 100.
+A tiny web app that generates a shareable "political strife" meter image based on a slider position from 0 to 100. A hosted instance of this can be found at [https://politicalstrifescale.com/].
 
 ## How it works
 - `index.php` renders a HTML file that contains the image, slider control and labels.
